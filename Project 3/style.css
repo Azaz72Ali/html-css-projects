@@ -1,0 +1,94 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 100%;
+  background-color: rgb(34, 33, 33);
+  color: #ffffff;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+  width: 95%;
+  max-width: 980px;
+  margin:0 auto;
+  /* border: 2px solid yellow; */
+}
+.navbar{
+  /* border:2px solid white; */
+  margin-top: 1.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar img{
+  width: 140px;
+  height: 55px;
+}
+.left-side{
+  display: flex;
+}
+.navlists{
+  /* border:2px solid yellow; */
+  display: flex;
+  margin-right: 2.8em;
+  align-items: center;
+}
+.navlists li{
+  margin-right: 3.2em;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 0.7;
+
+}
+.left-side button{
+  padding: .7em 1.3em;
+  background-color: rgb(34, 33, 33);
+  border:2px solid rgb(173, 173, 95);
+  border-radius: .5em;
+  color: rgb(137, 137, 56);
+  font-weight: 600;
+}
+.main-section{
+  /* border:2px solid white; */
+  margin-top: 3em;
+}
+.text{
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.text h1{
+  width: 55%;
+  /* border: 2px solid red; */
+  font-size: 3rem;
+  font-family: 'Unbounded';
+  font-weight: 700;
+  line-height: 1.5em;
+}
+.text p{
+  width: 39%;
+  opacity: 0.8;
+  font-size: 0.8rem;
+  padding-top: 1.5em;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 1.6px;
+  line-height: 20px;
+}
+.banner-img{
+  /* border: 2px solid white; */
+  margin-top: 2.6em;
+  width: 100%;
+  height: 54vh;
+  
+}
+.banner-img img{
+  /* border: 2px solid white; */
+  border-radius: 12px;
+  width: 100%;
+  max-height: 100%;
+}
