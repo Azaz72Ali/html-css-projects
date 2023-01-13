@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color:white;
+}
+.navbar{
+  padding:2em 5em;
+  display: flex;
+  align-items: center;
+  
+}
+.navbar div img{
+  height:40px;
+}
+.line{
+  border-right: 2px solid white;
+  height: 45px;
+  margin-left: 2.2em;
+  
+}
+ul{
+  margin-left: 4em;
+  display: flex;
+}
+ul li{
+  font-family: 'Poppins';
+  list-style: none;
+  margin-left: 3em;
+}
+
+ul li:first-child::after{
+  content: '▼';
+  margin-left: 0.3em; 
+}
+.button-small{
+ margin-left: 30em;
+ background:#9334b2;
+ color:white;
+ padding:0.6em 1.3em;
+ border-radius: .4em;
+ font-size: 0.89rem;
+}
+section[aria-label="hero"] .hero{
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%;
+  height: 84.7vh;
+  text-align: center;
+  padding:4.5em;
+  
+  
+}
+.hero-heading{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 4.2rem;
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: center;
+  line-height: 85px;
+}
+.hero-description{
+  margin-top: -0.1em;
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+}
+.button-large{
+  margin-top: 1.8em;
+  background:#b538de;
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255);
+  padding:0.6em 1.6em;
+  font-weight: 600;
+  border-radius: 0.6em;
+  border: none;
+  
+}
+
